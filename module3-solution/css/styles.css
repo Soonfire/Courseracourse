@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+/* HEADER */
 .navbar {
     background-color: grey;
     border-radius: 0;
@@ -16,7 +17,41 @@ body {
     margin: 0;
     padding: 0;
     line-height: 0.5;
+    text-align: left;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+}
+#collapsable-nav {
+    overflow: hidden;
+    border: 0;
+}
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#nav-list a {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px black solid;
+}
+/* END OF HEADER */
+h2 {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#page-content {
+    width: 98%;
+}
+.row .container:nth-child(1) {
+    background-color: grey;
+    height: 1000px;
 }
